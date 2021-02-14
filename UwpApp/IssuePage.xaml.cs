@@ -30,7 +30,7 @@ namespace UwpApp
             LoadStatusAsync().GetAwaiter();
             LoadCategoryAsync().GetAwaiter();
             
-            var connectionString = "YOUR_CONNECTION_STRING";
+            var connectionString = "YOUR_CONNECTION_String";
             
             var containerName = "YOUR_CONTAINER_NAME";
             StorageBlob.InitializeStorageAsync(connectionString, containerName).GetAwaiter();
